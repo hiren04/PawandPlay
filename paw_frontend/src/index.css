@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hero-banner {
+  background-image: url('/public/images/hero-bg.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #b35c1e;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  color: #5a3e2b;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff8c42;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #e67835;
+}
+.text-orange {
+  color: #b35c1e;
+}
+
+.about-section {
+  background-color: #fffaf2;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+button.accordion-button.fw-semibold {
+  transform: inherit!important;
+}
+.banner-about {
+  background-image: url('/public/images/banner-about.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.banner-text {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.banner-about {
+  /* background-image: url('/images/banner-about.jpg'); Your banner image */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding-left: 40px;
+}
+
+.banner-about h1, .banner-about p {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+.login-bg {
+  background-image: url('/public/images/about-us.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sign-up-bg{
+  background-image: url('/public/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
